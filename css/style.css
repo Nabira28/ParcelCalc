@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  background-color: #151f42;
+}
+
+.login-button {
+  background: #4e0000;
+  border-radius: 12px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Exo-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  width: 12%;
+  height: 60px;
+  position: absolute;
+  left: 85%;
+  right: 15%;
+  top: 20px;
+  z-index: 1;
+}
+
+.back {
+  margin: 20px;
+}
+.box {
+  flex: 1; /* allow equal width or responsive growth */
+  height: 100px;
+}
+.blue {
+  background: #495bbf;
+  width: 50vw;
+  transform: scaleX(1.5);
+}
+.red {
+  background: #fd0000;
+  width: 50vw;
+}
+.trapezium {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #fd0000; /* height and color of the trapezium */
+  border-left: 50px solid transparent;
+}
+.logos {
+  position: absolute;
+  top: 5px;
+  left: 51.5%;
+  translate: -65%;
+  z-index: 1;
+}
+.logo {
+  object-fit: cover;
+  aspect-ratio: 56.31/70.46;
+}
+.x {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.container {
+  background-color: whitesmoke;
+  border: solid 1px black;
+  color: black;
+  padding: 10px 5px;
+}
+
+.trademark {
+  margin: 30px;
+  color: #d3d3d3;
+  text-align: center;
+  font-family: "Exo-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap; /* Optional: wrap to new line on small screens */
+}
+
+/* input[type="date"] {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  } */

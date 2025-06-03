@@ -1,0 +1,87 @@
+.content {
+  text-align: center;
+}
+h2 {
+  margin: 0px;
+  margin-top: 40px;
+  color: #69a6d2;
+  font-family: "Exo-Bold", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+}
+p {
+  margin: 0%;
+  margin-bottom: 40px;
+  color: #d3d3d3;
+  font-family: "Exo-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+input[type="text"] {
+  font-size: 18px; /* or any size you want */
+}
+.search {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../resources/Homepage/icon0.svg") no-repeat 96% center;
+  margin-bottom: 25px;
+  background-color: #ece6f0;
+  border-radius: 94px;
+  flex-direction: row;
+  gap: 4px;
+  text-align: center;
+  width: 468px;
+  height: 58px;
+  max-width: 720px;
+}
+
+.divide {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+.divider {
+  background: #e6e6e6;
+  flex: 1;
+  height: 1px;
+  position: relative;
+}
+.or {
+  color: #828282;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+}
+
+input[type="date"] {
+  font-size: 18px; /* or any size you want */
+  padding: 5px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 50;
+  padding: 20px;
+  transform: scale(1.5);
+}
+.date {
+  margin-bottom: 20px;
+  background-color: #ece6f0;
+  border-radius: 94px;
+  flex-direction: row;
+  gap: 4px;
+  text-align: center;
+  width: 468px;
+  height: 58px;
+  max-width: 720px;
+}
+.submit {
+  margin: 0px;
+  border-radius: 94px;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+}
